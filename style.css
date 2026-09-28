@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+  
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(79, 80, 80);
+    
+}
+h1::first-letter{
+    font-size: 70px;
+    color: brown;
+}
+main{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 5px;
+
+}
+
+.gallery img{
+    width: 50%;
+    height: 250px;
+    
+}
+.gallery{
+    text-align: center;
+    padding: 10px;
+    transition: 0.3s;
+}
+.gallery:hover{
+    background-color: rgb(220, 220, 220);
+    transform: scale(1.05);
+    box-shadow: 0px 5px rgba(248, 232, 232, 0.3);
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-color: #7b0000;
+}
