@@ -5,7 +5,7 @@ body{
 
 h1{
   
-    margin: 0px;
+    margin: 10px;
     font-size: 30px;
     text-align: center;
     color: rgb(79, 80, 80);
@@ -51,6 +51,19 @@ footer{
     text-align: center;
     padding: 15px;
     background-color: #7b0000;
+}
+
+.description{
+    font-size: 25px;
+    color: rgb(63, 61, 61);
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.description::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(130, 4, 56);
 }
 
 /* Lightbox */
